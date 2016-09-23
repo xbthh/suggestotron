@@ -1,3 +1,3 @@
 class Topic < ApplicationRecord
-  has_many :votes,dependent :destory
+  has_many :votes, dependent: :destroy
 end
